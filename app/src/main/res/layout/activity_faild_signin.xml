@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F80909"
+    android:backgroundTint="#B5F40B0B">
+
+    <TextView
+        android:id="@+id/signinTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signin_tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signinTopic"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Please try again!"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin_tryAgain"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#B2ABBCB5"
+        android:text="back" />
+</RelativeLayout>
